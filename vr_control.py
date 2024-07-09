@@ -51,7 +51,7 @@ rob.set_tcp((0, 0, 0, 0, 0, 0))
 rob.set_payload(2, (0, 0, 0.1))
 sleep(0.2)  #leave some time to robot to process the setup commands
 
-init_pose = [0, -1.57, -2.66, -0.6, -1.57, 0]
+init_pose = [1.57, -1.57, -2.66, -0.6, -1.57, 0]
 print("Resetting arm to start position. Please wait...")
 rob.movej(init_pose, a, v)
 print("Finished resetting arm to start position")
